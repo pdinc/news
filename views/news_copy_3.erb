@@ -26,6 +26,10 @@
       <h1>Weather</h1>
       <p>
         It is <%= @curr_temp %> degrees in <%= @location %>
+        <ul>
+            <% for each_day in @forecast["daily"]["data"] %>
+            <li> 
+        </ul>
       </p>
     </div>
     <div class="container mt-2">
@@ -58,10 +62,10 @@
                     </div>
                     <% i=i+1 %>
                 <% end %>
-            <% end %>   
-            <% if i % 4 != 0 %>
+                <% if i % 4 != 0 %>
                     </div>
-            <% end %>
+                <% end %>
+            <% end %>   
     </div>
 
     <!-- Optional JavaScript -->

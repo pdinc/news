@@ -22,46 +22,27 @@
   </head>
   <body>
 
-    <div class="container mt-2">
+    <div class="container mt-5">
       <h1>Weather</h1>
       <p>
         It is <%= @curr_temp %> degrees in <%= @location %>
       </p>
-    </div>
-    <div class="container mt-2">
+      <p>
+        <%= @news["articles"][0]["title"] %>
             <% i = 0 %>
+            <ul>
             <% for each_article in @news["articles"] %>
                 <% if i % 4 == 0 %>
-                    <div class="row my-2">
-                        <div class="col-lg mx-auto my-2">
-                            <div class="card" style="width: 18rem;">
-                                <img src=<%= each_article["urlToImage"] %> class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title"><%= each_article["title"] %></h5>
-                                    <a href=<%= each_article["url"] %> class="btn btn-primary">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    <% i=i+1 %>
-                <% elsif i % 4 == 3 %>
-                    </div>
+                    <br> <br> <br>
+                    <li> <img src=<%= each_article["urlToImage"] %>> <%= i %> <%= each_article["title"] %></li>
                     <% i=i+1 %>
                 <% else %>
-                    <div class="col-lg mx-auto my-2">
-                        <div class="card" style="width: 18rem;">
-                            <img src=<%= each_article["urlToImage"] %> class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><%= each_article["title"] %></h5>
-                                <a href=<%= each_article["url"] %> class="btn btn-primary">Read More</a>
-                            </div>
-                        </div>
-                    </div>
+                    <li> <%= i %> <%= each_article["title"] %></li>
                     <% i=i+1 %>
                 <% end %>
-            <% end %>   
-            <% if i % 4 != 0 %>
-                    </div>
             <% end %>
+            </ul>     
+      </p>
     </div>
 
     <!-- Optional JavaScript -->

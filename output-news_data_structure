@@ -1,0 +1,284 @@
+Puma starting in single mode...
+* Version 4.3.1 (ruby 2.6.3-p62), codename: Mysterious Traveller
+* Min threads: 0, max threads: 16
+* Environment: development
+* Listening on tcp://127.0.0.1:4567
+* Listening on tcp://[::1]:4567
+Use Ctrl-C to stop
+Parameters: {"LocationInputBox"=>"chicago"}
+{"status"=>"ok",
+ "totalResults"=>38,
+ "articles"=>
+  [{"source"=>{"id"=>"fox-news", "name"=>"Fox News"},
+    "author"=>"Marisa Schultz",
+    "title"=>
+     "Trump furious Americans infected with coronavirus flew back to US without his permission: report - Fox News",
+    "description"=>
+     "President Trump grew furious that 14 Americans infected with the coronavirus were allowed to fly back to the United States without his permission, rather than remaining quarantined overseas, according to a new report.",
+    "url"=>
+     "https://www.foxnews.com/politics/trump-furious-americans-infected-with-coronavirus-flew-back-in-u-s-without-his-permission-report",
+    "urlToImage"=>
+     "https://static.foxnews.com/foxnews.com/content/uploads/2020/02/DiamondPrincess022020.jpg",
+    "publishedAt"=>"2020-02-22T16:01:53Z",
+    "content"=>
+     "President Trump was furious that 14 Americans infected with the coronavirus returned to the United States without his permission rather than remain in quarantine overseas, according to a new report.\r\n" +
+     "Trump had been briefed that the healthy U.S. passengers who… [+3080 chars]"},
+   {"source"=>
+     {"id"=>"the-wall-street-journal", "name"=>"The Wall Street Journal"},
+    "author"=>"Nicole Friedman",
+    "title"=>
+     "Warren Buffett’s Berkshire Hathaway Stock Underperforms the Most Since 2009 - The Wall Street Journal",
+    "description"=>
+     "The conglomerate’s stock rose 11% in 2019 compared with a 31.5% total return in the S&P 500",
+    "url"=>
+     "https://www.wsj.com/articles/berkshire-hathaway-posts-29-2-billion-in-quarterly-earnings-11582379630",
+    "urlToImage"=>"https://images.wsj.net/im-156774/social",
+    "publishedAt"=>"2020-02-22T15:56:00Z",
+    "content"=>
+     "Warren Buffett sought to reassure investors about Berkshire Hathaway Inc.s long-term future following an underwhelming year for the conglomerates performance.\r\n" +
+     "The 89-year-old Mr. Buffett, Berkshires chairman and chief executive, is renowned for his long-term… [+139 chars]"},
+   {"source"=>{"id"=>"the-hill", "name"=>"The Hill"},
+    "author"=>"J. Edward Moreno",
+    "title"=>"Roger Stone moves to disqualify judge | TheHill - The Hill",
+    "description"=>
+     "Roger Stone, a convicted former campaign advisor to President Trump, moved Friday to disqualify the judge in his case after being sentenced to more than three years in prison.",
+    "url"=>
+     "https://thehill.com/regulation/court-battles/484187-roger-stone-moves-to-disqualify-judge",
+    "urlToImage"=>
+     "https://thehill.com/sites/default/files/stoneroger_111519upi_lead.jpg",
+    "publishedAt"=>"2020-02-22T15:55:02Z",
+    "content"=>
+     "Roger StoneRoger Jason StoneComey responds to Trump with Mariah Carey gif: 'Why are you so obsessed with me?'Attorney General Barr is in a mess and has no one to blame but himselfMaxine Waters: Gang members have 'more integrity' than 'street player' TrumpMORE… [+2056 chars]"},
+   {"source"=>{"id"=>"usa-today", "name"=>"USA Today"},
+    "author"=>"Doug Stanglin",
+    "title"=>
+     "A dozen towns in northern Italy are locked down after coronavirus deaths - USA TODAY",
+    "description"=>
+     "Schools, businesses and restaurant closed in a dozen northern Italian towns Saturday following reports of two deaths tied to the coronavirus outbreak",
+    "url"=>
+     "https://www.usatoday.com/story/news/world/2020/02/22/coronavirus-italy-towns-lockdown-deaths-virus-spreads/4841539002/",
+    "urlToImage"=>
+     "https://www.gannett-cdn.com/presto/2020/02/22/USAT/6b3f170b-35b2-49d7-b27c-ca18a297b38a-AP_Italy_China_Outbreak_Europe.JPG?crop=1023,576,x0,y52&width=1600&height=800&fit=bounds",
+    "publishedAt"=>"2020-02-22T15:51:30Z",
+    "content"=>
+     "The director of the National Institute of Allergy and Infectious Diseases discusses coronavirus. He says to skip the masks and take flu precautions.\r\n" +
+     "USA TODAY\r\n" +
+     "Schools, businesses and restaurant were closed in a dozen northern Italian towns Saturday followin… [+4024 chars]"},
+   {"source"=>{"id"=>nil, "name"=>"Cbssports.com"},
+    "author"=>"",
+    "title"=>
+     "College basketball rankings: Kansas at Baylor highlights Saturday schedule that could shakeup Top 25 And 1 - CBS Sports",
+    "description"=>
+     "The Jayhawks and Bears have combined to win 34 straight games",
+    "url"=>
+     "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-kansas-at-baylor-highlights-saturday-schedule-that-could-shakeup-top-25-and-1/",
+    "urlToImage"=>
+     "https://sportshub.cbsistatic.com/i/r/2020/02/22/3676f64f-ed92-44b1-a48c-aa5a8bef5459/thumbnail/1200x675/d375728a66d2a2e71b73abd9943640fe/baylor-ku-top25.jpg",
+    "publishedAt"=>"2020-02-22T14:34:00Z",
+    "content"=>
+     "Gonzaga has been No. 1 in the CBS Sports Top 25 And 1 daily college basketball rankings for 55 consecutive mornings. Baylor has been No. 2 for 42 straight days. So while it's true that the top of these (and all other) rankings were constantly changing early i… [+925 chars]"},
+   {"source"=>{"id"=>"cnn", "name"=>"CNN"},
+    "author"=>"Dr. Tom Frieden",
+    "title"=>"What you can do right now to evade America's No. 1 killer - CNN",
+    "description"=>
+     "Cardiovascular disease was, and still is, our No. 1 killer. It's a major source of our health care costs, and causes disability and related economic loss. At its peak, in the 1960s, among people over age 35, 1 in 100 died of heart disease every year -- a rate…",
+    "url"=>
+     "https://www.cnn.com/2020/02/22/health/heart-disease-us-frieden-wellness/index.html",
+    "urlToImage"=>
+     "https://cdn.cnn.com/cnnnext/dam/assets/170209095032-women-heart-attacks-facts-05-super-tease.jpg",
+    "publishedAt"=>"2020-02-22T14:05:00Z",
+    "content"=>
+     "Dr. Tom Frieden is the former director of the US Centers for Disease Control and Prevention, and commissioner of the New York City Health Department. He is currently president and CEO of Resolve to Save Lives, a global non-profit initiative housed at Vital St… [+5216 chars]"},
+   {"source"=>{"id"=>"fox-news", "name"=>"Fox News"},
+    "author"=>"Melissa Roberto",
+    "title"=>
+     "Meghan Markle and Prince Harry say the Queen doesn't own the word 'royal' - Fox News",
+    "description"=>
+     "Meghan Markle and Prince Harry are fighting back against the Queen after announcing they will no longer use the word \"Royal\" or \"Sussex Royal.\"",
+    "url"=>
+     "https://www.foxnews.com/entertainment/meghan-markle-prince-harry-queen-does-not-own-word-royal",
+    "urlToImage"=>
+     "https://static.foxnews.com/foxnews.com/content/uploads/2020/02/queen-meghan-harry-getty.jpg",
+    "publishedAt"=>"2020-02-22T13:24:40Z",
+    "content"=>
+     "Standing up to the Queen!\r\n" +
+     "Meghan Markle and Prince Harry stunned fans last month when the couple announced they would be stepping back as senior members of the royal family. On Friday, the pair's spokesperson confirmed that, as a part of this plan, the Duke … [+2757 chars]"},
+   {"source"=>{"id"=>"the-washington-post", "name"=>"The Washington Post"},
+    "author"=>"Derek Hawkins",
+    "title"=>
+     "Rod Blagojevich called himself a ‘political prisoner.’ Anderson Cooper wasn’t having it. - The Washington Post",
+    "description"=>
+     "Cooper tore into the disgraced former governor in an interview Friday night, using a vulgar expression to criticize Blagojevich's lack of remorse after being granted clemency by President Trump.",
+    "url"=>
+     "https://www.washingtonpost.com/politics/2020/02/22/rod-blagojevich-called-himself-political-prisoner-anderson-cooper-wasnt-having-it/",
+    "urlToImage"=>
+     "https://www.washingtonpost.com/resizer/PwDrD7t2nPjVT_GqB3gbb5HLKbM=/1440x0/smart/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/3KDIM6WKUVHZHMHYKVGB2JDEME.PNG",
+    "publishedAt"=>"2020-02-22T13:22:00Z",
+    "content"=>
+     "You got out. You do have an obligation to at least admit what you did wrong, Cooper told Blagojevich. And you refused to do that, and youre creating a whole new alternate universe of facts.\"\r\n" +
+     "And that may be big in politics today, he said, but its still, fran… [+3932 chars]"},
+   {"source"=>{"id"=>"abc-news", "name"=>"ABC News"},
+    "author"=>"William Mansell",
+    "title"=>
+     "Judge temporarily halts transfer of coronavirus patients to quarantine facility in California city - ABC News",
+    "description"=>"",
+    "url"=>
+     "https://abcnews.go.com/US/judge-temporarily-halts-transfer-coronavirus-patients-quarantine-facility/story?id=69142353",
+    "urlToImage"=>
+     "https://s.abcnews.com/images/US/CHINA-HEALTH-USA-200222_hpMain_20200222-075558_16x9_992.jpg",
+    "publishedAt"=>"2020-02-22T13:12:22Z",
+    "content"=>
+     "A city in California won a battle against the state Friday, at least temporarily, when a judge halted the transfer of people diagnosed with the coronavirus to its community for a quarantine site.\r\n" +
+     "Costa Mesa, California, filed a legal action after it learned … [+3034 chars]"},
+   {"source"=>{"id"=>"nbc-news", "name"=>"NBC News"},
+    "author"=>"NBC News",
+    "title"=>
+     "Coronavirus updates: Cases in South Korea surge as U.S. prepares for pandemic - NBC News",
+    "description"=>
+     "Coronavirus cases surge in South Korea after outbreak in Daegu church, as U.S. prepares for pandemic.",
+    "url"=>
+     "https://www.nbcnews.com/news/world/coronavirus-updates-cases-south-korea-surge-u-s-prepares-pandemic-n1140796",
+    "urlToImage"=>
+     "https://media3.s-nbcnews.com/j/newscms/2020_08/3240146/afp_1p65zm_b258537a96a437b54d7dfa6d67a2bd12.nbcnews-fp-1200-630.JPG",
+    "publishedAt"=>"2020-02-22T13:02:00Z",
+    "content"=>
+     "Cases surge in South Korea after outbreak at church\r\n" +
+     "Twenty-three cruise passengers disembarked cruise ship without testing\r\n" +
+     "Coronavirus incubation could be as long as 27 days\r\n" +
+     "Tokyo postpones training for Olympics volunteers over virus fears\r\n" +
+     "U.S. takes step… [+8585 chars]"},
+   {"source"=>{"id"=>"usa-today", "name"=>"USA Today"},
+    "author"=>"Rebecca Morin",
+    "title"=>
+     "Live updates: Democratic primary moves west for the Nevada caucuses - USA TODAY",
+    "description"=>
+     "Saturday will test whether Vermont Sen. Bernie Sanders can hold his frontrunner status, after winning New Hampshire and placing in the top two in Iowa.",
+    "url"=>
+     "https://www.usatoday.com/story/news/politics/elections/2020/02/22/nevada-caucuses-bernie-sanders-democrats-look-keep-gain-momentum/4830392002/",
+    "urlToImage"=>
+     "https://www.gannett-cdn.com/presto/2020/02/22/USAT/5be96d60-b142-4a39-8024-c4baceb9f9d7-Nevada_Caucuses.jpg?crop=5299,2981,x0,y282&width=3200&height=1680&fit=bounds",
+    "publishedAt"=>"2020-02-22T13:00:27Z",
+    "content"=>
+     "The Democratic Primary Debate in Las Vegas, Nevada featured former NYC mayor Michael Bloomberg, who took the majority of attacks for the evening.\r\n" +
+     "USA TODAY\r\n" +
+     "Check back for live updates from throughout the day as Nevada Democrats head to caucuses around the s… [+3850 chars]"},
+   {"source"=>{"id"=>nil, "name"=>"Nypost.com"},
+    "author"=>"George A. King III",
+    "title"=>
+     "Aaron Judge gives Aaron Boone thumbs-up sign after batting tee work - New York Post ",
+    "description"=>
+     "TAMPA — Aaron Judge’s path back to taking full batting practice took a small step Friday when he hit off a batting tee and flashed manager Aaron Boone a thumbs-up when done. “Everything is moving t…",
+    "url"=>
+     "https://nypost.com/2020/02/22/aaron-judge-gives-aaron-boone-thumbs-up-sign-after-batting-tee-work/",
+    "urlToImage"=>
+     "https://thenypost.files.wordpress.com/2020/02/aaron-judge-5.jpg?quality=90&strip=all&w=1200",
+    "publishedAt"=>"2020-02-22T11:44:00Z",
+    "content"=>
+     "TAMPA Aaron Judges path back to taking full batting practice took a small step Friday when he hit off a batting tee and flashed manager Aaron Boone a thumbs-up when done.\r\n" +
+     "Everything is moving there the way it should, Yankees manager Aaron Boone said of Judge… [+2438 chars]"},
+   {"source"=>{"id"=>"techradar", "name"=>"TechRadar"},
+    "author"=>"Henry St Leger",
+    "title"=>
+     "What Sony's history of backward compatibility tells us about PS5 - TechRadar India",
+    "description"=>"Back to the future",
+    "url"=>
+     "https://www.techradar.com/news/what-sonys-history-of-backward-compatibility-tells-us-about-ps5",
+    "urlToImage"=>
+     "https://cdn.mos.cms.futurecdn.net/uSwEe4h48vsScgQnhLaYzd-1200-80.jpg",
+    "publishedAt"=>"2020-02-22T11:00:00Z",
+    "content"=>
+     "So, the PS5 is on its way, and it’s going head-to-head with the equally next-gen Xbox Series X console. And while it’s tempting to look at the hefty PS4 sales figures as a sign that Sony’s dominance will continue, there is one area that the Xbox One clearly o… [+5101 chars]"},
+   {"source"=>{"id"=>"cnn", "name"=>"CNN"},
+    "author"=>"Christina Maxouris, CNN",
+    "title"=>
+     "There isn't an AMBER Alert for every child who goes missing. Here's why - CNN",
+    "description"=>
+     "Evelyn Boswell is a 15-month-old girl missing in Tennessee. Andrew Caballeiro was a week old when he was last seen in Florida. Osiel Rico, 3, has been missing from New Mexico for nearly two months.",
+    "url"=>
+     "https://www.cnn.com/2020/02/22/us/amber-alert-explainer/index.html",
+    "urlToImage"=>
+     "https://cdn.cnn.com/cnnnext/dam/assets/200222045850-amber-alert-highway-file-2018-restricted-super-tease.jpg",
+    "publishedAt"=>"2020-02-22T10:58:00Z",
+    "content"=>nil},
+   {"source"=>
+     {"id"=>"the-wall-street-journal", "name"=>"The Wall Street Journal"},
+    "author"=>"Ehsanullah Amiri",
+    "title"=>
+     "U.S., Taliban Start Weeklong Partial Truce in Effort to End Afghan War - The Wall Street Journal",
+    "description"=>
+     "U.N. says more than 10,000 civilians killed and injured in Afghanistan last year",
+    "url"=>
+     "https://www.wsj.com/articles/u-s-taliban-start-weeklong-partial-truce-in-effort-to-end-afghan-war-11582368636",
+    "urlToImage"=>"https://images.wsj.net/im-156771/social",
+    "publishedAt"=>"2020-02-22T10:50:00Z",
+    "content"=>
+     "KABULAs the U.S. and the Afghan Taliban started Saturday a seven-day partial truce ahead of a possible peace deal to end more than 18 years of war, the United Nations provided evidence of the conflicts massive toll on civilians.\r\n" +
+     "More than 10,000 civilians we… [+266 chars]"},
+   {"source"=>{"id"=>nil, "name"=>"Nytimes.com"},
+    "author"=>"Motoko Rich",
+    "title"=>
+     "‘We’re in a Petri Dish’: How a Coronavirus Ravaged a Cruise Ship - The New York Times",
+    "description"=>
+     "More than three days passed before Japan imposed a quarantine. That delay and other missteps helped produce the largest outbreak of the virus beyond China.",
+    "url"=>
+     "https://www.nytimes.com/2020/02/22/world/asia/coronavirus-japan-cruise-ship.html",
+    "urlToImage"=>
+     "https://static01.nyt.com/images/2020/02/22/world/22ship-reconstruct-still/22ship-reconstruct-still-facebookJumbo.jpg",
+    "publishedAt"=>"2020-02-22T10:23:00Z",
+    "content"=>
+     "She was told that it was up to the Japanese health ministry, and that no tests were available on board. After a day passed, her husband, John, called the U.S. Embassy in Tokyo and tried to convince an official that everybody needed to be tested.\r\n" +
+     "Were in a pe… [+1119 chars]"},
+   {"source"=>{"id"=>"al-jazeera-english", "name"=>"Al Jazeera English"},
+    "author"=>"Ben White",
+    "title"=>
+     "How will the US Middle East plan impact the Israeli election? - Al Jazeera English",
+    "description"=>
+     "Israeli Prime Minister Netanyahu has yet to see a boost in pre-vote polls ahead of March 2 election, analysts say.",
+    "url"=>
+     "https://www.aljazeera.com/news/2020/02/middle-east-plan-impact-israeli-election-200215055144822.html",
+    "urlToImage"=>
+     "https://www.aljazeera.com/mritems/Images/2020/2/15/8971d26eceea4a1abd5d3d5952853330_18.jpg",
+    "publishedAt"=>"2020-02-22T10:21:00Z",
+    "content"=>
+     "Amid the fallout from the announcement of US President Donal Trump's plan for Israel-Palestine, it was hard to avoid the conclusion that the timing and manner of its publication had much to do with Israeli Prime Minister Benjamin Netanyahu's battle for politi… [+6213 chars]"},
+   {"source"=>{"id"=>nil, "name"=>"Theguardian.com"},
+    "author"=>"Emily Holden",
+    "title"=>
+     "Mike Bloomberg under fire for using 'snazzy ads' to mask weak climate plan - The Guardian",
+    "description"=>
+     "Candidate has offered few details on how he would he achieve goals as climate plan lags behind Democratic rivals",
+    "url"=>
+     "https://www.theguardian.com/us-news/2020/feb/22/mike-bloomberg-climate-plan-campaign",
+    "urlToImage"=>
+     "https://i.guim.co.uk/img/media/15523be085c2cfdabe5f2b5bd722ba1098af790d/0_135_5400_3239/master/5400.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=1b077c3375d426692f383f869da4b0a2",
+    "publishedAt"=>"2020-02-22T08:00:00Z",
+    "content"=>
+     "Mike Bloomberg has donated hundreds of millions of dollars to environmental advocacy causes, but his campaign is coming under fire for a climate plan that lags far behind the other Democratic candidates for president.\r\n" +
+     "In the latest televised Democratic presi… [+7178 chars]"},
+   {"source"=>{"id"=>nil, "name"=>"Bgr.com"},
+    "author"=>"Maren Estrada",
+    "title"=>
+     "Dyson is dead to me now that I’ve tried this Bissell vacuum, and it’s on sale today at its lowest price - BGR",
+    "description"=>
+     "Like most people out there, I have been a big fan of Dyson vacuums for as long as I can remember. Actually, I should probably say I had been a big fan of Dyson vacuums. I still marvel at how powerf…",
+    "url"=>
+     "https://bgr.com/2020/02/22/best-cordless-vacuum-cleaner-amazon-prime-deal-bissell-pet-hair/",
+    "urlToImage"=>
+     "https://boygeniusreport.files.wordpress.com/2019/09/bissell-iconpet-cordless-stick-vacuum.jpg?quality=98&strip=all",
+    "publishedAt"=>"2020-02-22T07:02:00Z",
+    "content"=>
+     "Like most people out there, I have been a big fan of Dyson vacuums for as long as I can remember. Actually, I should probably say I had been a big fan of Dyson vacuums. I still marvel at how powerful Dyson’s motors are on its cordless stick vacuums, but I’ve … [+3689 chars]"},
+   {"source"=>{"id"=>nil, "name"=>"Youtube.com"},
+    "author"=>nil,
+    "title"=>
+     "US election 2020: Bernie Sanders warns Russia to 'stay out' - Al Jazeera English",
+    "description"=>
+     "In the United States, accusations of Russian meddling in the presidential election have resurfaced - this time, regarding the 2020 campaign. Democratic presi...",
+    "url"=>"https://www.youtube.com/watch?v=DUiOCWBGu5g",
+    "urlToImage"=>"https://i.ytimg.com/vi/DUiOCWBGu5g/maxresdefault.jpg",
+    "publishedAt"=>"2020-02-22T06:32:46Z",
+    "content"=>
+     "In the United States, accusations of Russian meddling in the presidential election have resurfaced - this time, regarding the 2020 campaign. Democratic presidential hopeful Bernie Sanders has warned Russia to stay out of the 2020 presidential election.He was … [+473 chars]"}]}
+- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2020-02-22 18:18:44 +0000 ===
+- Goodbye!

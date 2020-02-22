@@ -1,0 +1,10 @@
+Puma starting in single mode...
+* Version 4.3.1 (ruby 2.6.3-p62), codename: Mysterious Traveller
+* Min threads: 0, max threads: 16
+* Environment: development
+* Listening on tcp://127.0.0.1:4567
+* Listening on tcp://[::1]:4567
+Use Ctrl-C to stop
+- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2020-02-22 18:46:49 +0000 ===
+- Goodbye!
