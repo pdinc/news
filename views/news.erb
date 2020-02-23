@@ -18,50 +18,36 @@
     <!-- Your own CSS -->
     <link rel="stylesheet" href="/styles.css">
 
-    <title>News</title>
+    <title>News & Weather</title>
   </head>
   <body>
 
-    <div class="container mt-2">
-      <h1>Weather</h1>
+    <div class="container-fluid weather-container mt-2 mx-2">
+      <h1>Weather in <%= @location %></h1>
       <p>
         It is <%= @curr_temp %> degrees in <%= @location %>
+        <ul>
+            <% for each_day in @forecast["daily"]["data"] %>
+                <li> <%= Time.at(each_day["time"]).strftime("%a") %>: <%= each_day["temperatureHigh"] %>
+            <% end %>
+        </ul>
       </p>
     </div>
-    <div class="container mt-2">
-            <% i = 0 %>
-            <% for each_article in @news["articles"] %>
-                <% if i % 4 == 0 %>
-                    <div class="row my-2">
-                        <div class="col-lg mx-auto my-2">
+    <div class="container-fluid news-container mt-2 mx-4 pt-0">
+            <h1> News </h1>
+            <div class="row">
+                <% for each_article in @news["articles"] %>
+                        <div class="col-lg-4 my-2 mx-auto">
                             <div class="card" style="width: 18rem;">
                                 <img src=<%= each_article["urlToImage"] %> class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title"><%= each_article["title"] %></h5>
+                                    <h5 class="card-title"> <a href=<%= each_article["url"] %>> <%= each_article["title"] %> </a> </h5>
                                     <a href=<%= each_article["url"] %> class="btn btn-primary">Read More</a>
                                 </div>
                             </div>
                         </div>
-                    <% i=i+1 %>
-                <% elsif i % 4 == 3 %>
-                    </div>
-                    <% i=i+1 %>
-                <% else %>
-                    <div class="col-lg mx-auto my-2">
-                        <div class="card" style="width: 18rem;">
-                            <img src=<%= each_article["urlToImage"] %> class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><%= each_article["title"] %></h5>
-                                <a href=<%= each_article["url"] %> class="btn btn-primary">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <% i=i+1 %>
                 <% end %>
-            <% end %>   
-            <% if i % 4 != 0 %>
-                    </div>
-            <% end %>
+            </div>
     </div>
 
     <!-- Optional JavaScript -->

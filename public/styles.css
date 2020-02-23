@@ -1,0 +1,9 @@
+.weather-container {
+    padding: 2%;
+}
+
+.news-container {
+    padding: 10%;
+}
+
+/* Need to add CSS to remove hyperlink blue and underline for card titles */
