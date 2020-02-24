@@ -6,10 +6,25 @@
     padding: 2%;
 }
 
-.card-img-top {
+.newscardimage {
     width: 100%;
     height: 25vh;
     object-fit: cover;
+}
+
+.weathercardimage {
+    width: 100%;
+    max-width: 5rem;
+}
+
+.weathercardimagebig {
+    width: 100%;
+    max-width: 7rem;
+}
+
+.HeadlineBlack {
+    background-color: black;
+    color: white;
 }
 
 /* Need to add CSS to remove hyperlink blue and underline for card titles */

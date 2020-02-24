@@ -29,43 +29,34 @@
 
     <div class="container-fluid weather-container">
         <div class="bg-light"> 
-            <h1 class="HeadlineBlack"> Weather in <%= @location %> </h1>
+            <h1> Weather in <%= @location %> </h1>
             <p class="mt-0">Powered by Darksky</p>
         </div>
         <p>
-            <h3><img src="https://darksky.net/images/weather-icons/<%= @forecast["currently"]["icon"] %>.png" class="weathercardimagebig"> It is currently <%= @forecast["currently"]["summary"].downcase %> in <%= @location %>. The current temperature is <%= @forecast["currently"]["temperature"].round %>°F, with a high today of <%= @forecast["daily"]["data"][0]["temperatureHigh"].round %>°F and a low of <%= @forecast["daily"]["data"][0]["temperatureLow"].round %>°F.</h3>
-            <hr>
-            <h4><img src="https://darksky.net/images/weather-icons/<%= @forecast["daily"]["data"][1]["icon"] %>.png" class="weathercardimage"> Tomorrow, it will be <%= @forecast["daily"]["data"][1]["summary"].downcase[0,@forecast["daily"]["data"][1]["summary"].length-1] %>, with a high of <%= @forecast["daily"]["data"][1]["temperatureHigh"].round %>°F and a low of <%= @forecast["daily"]["data"][1]["temperatureLow"].round %>°F. </h4>
+            <img src="https://darksky.net/images/weather-icons/<%= @forecast["currently"]["icon"] %>.png" height="36rem"> It is currently <%= @forecast["currently"]["summary"].downcase %> in <%= @location %>.
+            The current temperature is <%= @forecast["currently"]["temperature"].round %>°F , with a high today of <%= @forecast["daily"]["data"][0]["temperatureHigh"].round %>°F and a low of <%= @forecast["daily"]["data"][0]["temperatureLow"].round %> °F.
         </p>
         <p>
             <h2 class="bg-light">Weekly forecast</h2>
-            <div class="row">
-                <% for @each_day in @forecast["daily"]["data"].drop(2) %>
-                    <div class="col-lg-2 d-flex align-items-stretch">
-                        <div class="card border-light" style="width: 30rem;">
-                                <img src="https://darksky.net/images/weather-icons/<%= @each_day["icon"] %>.png" class="weathercardimage card-img-top" alt="..." >
-                                <div class="card-body">
-                                    <h5 class="card-title"> <%= Time.at(@each_day["time"]).strftime("%a") %> </h5>
-                                    <p class="card-text"> <%= @each_day["summary"][0,@each_day["summary"].length - 1] %>, with a high of <%= @each_day["temperatureHigh"].round %>°F and a low of <%= @each_day["temperatureLow"].round %>°F. </p>
-                                </div>
-                        </div>
-                        <hr>
-                    </div>
+            <ul>
+                <% for @each_day in @forecast["daily"]["data"].drop(1) %>
+                    <li> <img src="https://darksky.net/images/weather-icons/<%= @each_day["icon"] %>.png" height="36rem"> <%= Time.at(@each_day["time"]).strftime("%a") %>: 
+                    <%= @each_day["summary"][0,@each_day["summary"].length - 1] %>, with a high of <%= @each_day["temperatureHigh"].round %>°F and a low of <%= @each_day["temperatureLow"].round %>°F.
                 <% end %>
-            </div>
+            </ul>
         </p>
         <hr>
     </div>
     <div class="container-fluid news-container mt-0 mx-4 pt-0">
             <div class="bg-light"> 
-                <h1 class="HeadlineBlack"> News </h1>
+                <h1> News </h1>
                 <p class="mt-0">Powered by Newsapi</p>
             </div>
             <div class="row px-5">
                 <% for each_article in @news["articles"] %>
                         <div class="col-xl d-flex align-items-stretch my-2 mx-auto">
                             <div class="card" style="width: 30rem;">
-                                <a href=<%= each_article["url"] %>> <img src=<%= each_article["urlToImage"] %> class="newscardimage card-img-top" alt="..." > </a>
+                                <a href=<%= each_article["url"] %>> <img src=<%= each_article["urlToImage"] %> class="card-img-top" alt="..." > </a>
                                 <div class="card-body">
                                     <h5 class="card-title"> <a href=<%= each_article["url"] %>> <%= each_article["title"][0,each_article["title"].rindex("-")] %> </a> </h5>
                                     <a href=<%= each_article["url"] %> class="btn btn-primary">See More at <%= each_article["source"]["name"] %></a>
