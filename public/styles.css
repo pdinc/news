@@ -2,6 +2,9 @@ body {
     font-family: 'Overpass';
 }
 
+a:hover {
+    text-decoration: none;
+}
 .weather-container {
     padding: 2%;
 }
