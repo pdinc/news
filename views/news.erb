@@ -7,7 +7,7 @@
 
     <!-- Google Fonts -->
     <!-- Swap out "Roboto" for the font(s) you want to use -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Overpass&display=swap" rel="stylesheet">
     
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" crossorigin="anonymous">
@@ -32,11 +32,22 @@
             <h1 class="HeadlineBlack"> Weather in <%= @location %> </h1>
             <p class="mt-0">Powered by Darksky</p>
         </div>
-        <p>
-            <h3><img src="https://darksky.net/images/weather-icons/<%= @forecast["currently"]["icon"] %>.png" class="weathercardimagebig"> It is currently <%= @forecast["currently"]["summary"].downcase %> in <%= @location %>. The current temperature is <%= @forecast["currently"]["temperature"].round %>°F, with a high today of <%= @forecast["daily"]["data"][0]["temperatureHigh"].round %>°F and a low of <%= @forecast["daily"]["data"][0]["temperatureLow"].round %>°F.</h3>
-            <hr>
-            <h4><img src="https://darksky.net/images/weather-icons/<%= @forecast["daily"]["data"][1]["icon"] %>.png" class="weathercardimage"> Tomorrow, it will be <%= @forecast["daily"]["data"][1]["summary"].downcase[0,@forecast["daily"]["data"][1]["summary"].length-1] %>, with a high of <%= @forecast["daily"]["data"][1]["temperatureHigh"].round %>°F and a low of <%= @forecast["daily"]["data"][1]["temperatureLow"].round %>°F. </h4>
-        </p>
+        <div class="row">
+            <div class="col-xl-1">
+                <img src="https://darksky.net/images/weather-icons/<%= @forecast["currently"]["icon"] %>.png" class="weathercardimagebig">
+            </div>
+            <div class="col-xl-11">
+                <h3> It is currently <%= @forecast["currently"]["summary"].downcase %> in <%= @location %>. The current temperature is <%= @forecast["currently"]["temperature"].round %>°F, with a high today of <%= @forecast["daily"]["data"][0]["temperatureHigh"].round %>°F and a low of <%= @forecast["daily"]["data"][0]["temperatureLow"].round %>°F.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-1">
+                <img src="https://darksky.net/images/weather-icons/<%= @forecast["daily"]["data"][1]["icon"] %>.png" class="weathercardimage">
+            </div>
+            <div class="col-xl-11">
+                <h4 class="align-middle"> Tomorrow, it will be <%= @forecast["daily"]["data"][1]["summary"].downcase[0,@forecast["daily"]["data"][1]["summary"].length-1] %>, with a high of <%= @forecast["daily"]["data"][1]["temperatureHigh"].round %>°F and a low of <%= @forecast["daily"]["data"][1]["temperatureLow"].round %>°F. </h4>
+            </div>
+        </div>
         <p>
             <h2 class="bg-light">Weekly forecast</h2>
             <div class="row">
